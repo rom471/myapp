@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+
+<LinearLayout
+
+    style="@style/web_style">
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:id="@+id/web_view"
+        />
+</LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        style="@style/app_laucher_style"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/pred_server_tv"
+            style="@style/text_style"
+            android:text="服务器预测"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/app_pred_from_server"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

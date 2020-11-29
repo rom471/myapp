@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">应用预测</string>
+    <string name="radio_find">查找</string>
+    <string name="radio_sort">排序</string>
+    <string name="radio_set">设置</string>
+    <string name="radio_pred">预测</string>
+    <string name="sort_1">按最近使用时间排序</string>
+    <string name="sort_2">按使用总时间排序</string>
+    <string name="sort_3">按使用次数排序</string>
+    <string name="about_msg">此应用由：xxs、wjf、wkq开发\n项目地址：https://github.com/rom471/Test</string>
+
+</resources>

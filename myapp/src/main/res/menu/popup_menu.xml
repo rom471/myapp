@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/popup_one"
+        android:title="@string/sort_1"/>
+
+    <item
+        android:id="@+id/popup_two"
+        android:title="@string/sort_2"/>
+
+    <item
+        android:id="@+id/popup_three"
+        android:title="@string/sort_3"/>
+
+</menu>

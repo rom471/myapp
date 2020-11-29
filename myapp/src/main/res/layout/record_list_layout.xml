@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/id"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/appicon"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/appname"
+        android:layout_marginLeft="3dip"
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spend_tv"
+        android:layout_marginLeft="3dip"
+        />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_tv"
+        android:layout_marginLeft="3dip"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/battery_tv"
+        android:layout_marginLeft="3dip"
+        />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/net_tv"
+        android:layout_marginLeft="3dip"
+        />
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/record_list_by_date"
+        style="@style/listview_find"
+        android:layout_alignParentTop="true" />
+    <RelativeLayout
+        style="@style/find_layout_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/big_round_bg"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/record_date_start_btn"
+            style="@style/style_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="开始日期" />
+
+        <Button
+            android:id="@+id/record_date_end_btn"
+            style="@style/style_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/record_date_start_btn"
+            android:background="@drawable/button"
+            android:text="结束日期" />
+
+
+        <Button
+            android:id="@+id/date_start_search"
+            style="@style/style_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/record_date_end_btn"
+            android:background="@drawable/button"
+            android:text="开始查找" />
+
+        <TextView
+            android:id="@+id/record_date_start_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/record_date_start_btn"
+            android:layout_alignLeft="@id/record_date_start_btn"
+            android:layout_alignRight="@id/record_date_start_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/record_date_end_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/record_date_end_btn"
+            android:layout_alignLeft="@id/record_date_end_btn"
+            android:layout_alignRight="@id/record_date_end_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+
+        <TextView
+            android:id="@+id/date_search_result"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/date_start_search"
+            android:layout_alignLeft="@id/date_start_search"
+            android:layout_alignRight="@id/date_start_search"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

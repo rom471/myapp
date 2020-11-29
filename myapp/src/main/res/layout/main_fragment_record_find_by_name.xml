@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:layout_height="match_parent">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_alignParentTop="true"
+
+            style="@style/listview_find"
+
+            android:id="@+id/record_list_by_name"
+            />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        style="@style/find_layout_style"
+        android:id="@+id/layout_search"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="10dp"
+        >
+        <TextView
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/text_style"
+            android:id="@+id/record_serch_result"
+            android:layout_alignParentTop="true"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:id="@+id/record_search_et"
+            android:background="@drawable/rounded_editview"
+            android:layout_alignParentBottom="true"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查找"
+            android:id="@+id/record_search_btn"
+            android:background="@drawable/button"
+            android:layout_toRightOf="@id/record_search_et"
+            android:layout_alignTop="@id/record_search_et"
+            android:layout_alignBottom="@id/record_search_et"
+
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

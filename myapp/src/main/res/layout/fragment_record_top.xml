@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+             android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+             android:orientation="horizontal"
+
+             >
+
+
+
+             <RadioButton
+                 android:id="@+id/record_findbyname"
+                 android:layout_width="0dp"
+                 android:layout_height="60dp"
+                 android:layout_weight="1"
+                 android:layout_margin="2dp"
+                 android:background="@drawable/radio_button_selector"
+                 android:text="按名字查找"
+                 android:textColor="#336699"
+                 android:drawableTop="@drawable/search_name"
+                 android:paddingTop="12dp"
+                 android:textFontWeight="200"
+                    style="@style/style_RadioButton"
+                    />
+
+             <RadioButton
+                 android:id="@+id/record_find_by_date"
+                 android:layout_width="0dp"
+                 android:layout_height="60dp"
+                 android:layout_weight="1"
+                 android:text="按日期查找"
+                 android:textColor="#336699"
+                 android:drawableTop="@drawable/search_date"
+                 android:paddingTop="12dp"
+                 android:textFontWeight="200"
+                 android:layout_margin="2dp"
+                 android:background="@drawable/radio_button_selector"
+                    style="@style/style_RadioButton"
+                    />
+
+              <RadioButton
+                 android:id="@+id/record_find_by_time"
+                  android:layout_width="0dp"
+                  android:layout_height="60dp"
+                  android:layout_weight="1"
+                  android:text="按时间查找"
+                  android:textColor="#336699"
+                  android:drawableTop="@drawable/search_time"
+                  android:paddingTop="12dp"
+                  android:textFontWeight="200"
+                  android:layout_margin="2dp"
+                  android:background="@drawable/radio_button_selector"
+                    style="@style/style_RadioButton"
+                    />
+         </RadioGroup>
+
+     </LinearLayout>

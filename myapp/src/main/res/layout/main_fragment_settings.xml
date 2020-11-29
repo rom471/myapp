@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+       <Button
+           android:id="@+id/clear_records_btn"
+           android:text="清除数据"
+           android:drawableTop="@drawable/delete"
+           style="@style/setting_btn_style"
+           />
+        <Button
+            android:text="导出到SD卡"
+            android:id="@+id/output_db_btn"
+            android:drawableTop="@drawable/database"
+            style="@style/setting_btn_style"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="更改服务器地址"
+            android:id="@+id/set_host_ip_btn"
+            android:drawableTop="@drawable/set_hostip"
+            style="@style/setting_btn_style"
+            />
+    <Button
+        android:id="@+id/post_records_btn"
+        android:text="上传所有数据"
+        android:drawableTop="@drawable/server"
+        style="@style/setting_btn_style"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/open_accessibility_btn"
+        android:text="打开辅助功能"
+        android:drawableTop="@drawable/assist"
+        style="@style/setting_btn_style"
+        />
+        <Button
+            android:id="@+id/about_btn"
+            android:text="关于此应用"
+            android:drawableTop="@drawable/about"
+            style="@style/setting_btn_style"
+            />
+    </LinearLayout>
+
+</LinearLayout>

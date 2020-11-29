@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Test.iml" filepath="$PROJECT_DIR$/.idea/Test.iml" group="Test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myapplication/Test.myapplication.iml" filepath="$PROJECT_DIR$/.idea/modules/myapplication/Test.myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Test/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myapp/myapp.iml" filepath="$PROJECT_DIR$/.idea/modules/myapp/myapp.iml" group="Test/myapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/.idea/modules/myapplication/myapplication.iml" group="Test/myapplication" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recorder/recorder.iml" filepath="$PROJECT_DIR$/.idea/modules/recorder/recorder.iml" group="Test/recorder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wjf/wjf.iml" filepath="$PROJECT_DIR$/.idea/modules/wjf/wjf.iml" group="Test/wjf" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wkq/wkq.iml" filepath="$PROJECT_DIR$/.idea/modules/wkq/wkq.iml" group="Test/wkq" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xxs/xxs.iml" filepath="$PROJECT_DIR$/.idea/modules/xxs/xxs.iml" group="Test/xxs" />
+    </modules>
+  </component>
+</project>

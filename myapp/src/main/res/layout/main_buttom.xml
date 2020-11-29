@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+             android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+             android:orientation="horizontal"
+             android:background="#EEEEEE"
+             >
+
+
+
+             <RadioButton
+                 android:id="@+id/radio_find"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+
+                 android:text="@string/radio_find"
+                    style="@style/style_RadioButton"
+                    android:drawableTop="@drawable/search_selector"/>
+            <RadioButton
+                android:id="@+id/radio_sort"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="@string/radio_sort"
+                style="@style/style_RadioButton"
+                android:drawableTop="@drawable/list_selector"/>
+             <RadioButton
+                 android:id="@+id/radio_pred"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:text="@string/radio_pred"
+                    style="@style/style_RadioButton"
+                    android:drawableTop="@drawable/home_selector"/>
+
+              <RadioButton
+                 android:id="@+id/radio_set"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                 android:text="@string/radio_set"
+                    style="@style/style_RadioButton"
+                    android:drawableTop="@drawable/settings_selector"/>
+         </RadioGroup>
+
+     </LinearLayout>
